@@ -59,6 +59,7 @@ Just download this project and do this:
     npm install
 
 And then setup you wireframe folder by editing the config.json file:
+
     {
     	"wiresPath" : "./wires",	
     	"mediaPaths" : "wires/export"
