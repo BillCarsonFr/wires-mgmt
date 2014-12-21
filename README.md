@@ -19,7 +19,7 @@ I will add features if i need more, i am sharing this here in case somebody have
 
 # How It works
 
-You just have to sepcify the path of your wireframes, and then to start the node server and open your browser.
+You just have to specify the path of your wireframes, and then to start the node server and open your browser.
 The tool will read all your wires, and check if there is a markup starting with ##SOWT##. This is a markup containing various information that the server is able to parse.
 
 # Status
