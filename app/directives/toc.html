@@ -1,0 +1,9 @@
+<div class='bs-screens'>
+ <ul class="nav nav-pills nav-stacked">
+	<li role="presentation" ng-repeat="screen in screens"><a href="{{'/#/wire/' + screen.name}}">{{screen.name}}
+	<!-- glyphicon-check glyphicon-unchecked -->
+	<span ng-class="{'glyphicon-minus glyphicon pull-right' : screen.work, 'glyphicon-check glyphicon pull-right': screen.done, 'glyphicon-unchecked glyphicon pull-right': screen.inreview}" aria-hidden="true"></span>
+</a>
+</li>
+</ul>
+</div>

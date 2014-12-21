@@ -1,0 +1,45 @@
+<!-- <ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Overview</a></li>
+  <li role="presentation"><a href="#">Comments</a></li>
+</ul> -->
+<tabset>
+    <tab heading="Overview">
+      	<div class="tab-content">
+
+      		<div ng-show="loading"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Loading...</div>
+      		<div class='inline-group'>
+      			<div class="h3">{{screen}}</div>
+      			<!-- <button type="button" class="btn btn-success btn-sm">Open with Basalmiq</button> -->
+      		</div>
+
+      		<div class='inline-group'>
+      			<div class="h3">Status: {{infos.status}}</div> 
+      			
+      		</div>
+
+      		<img ng-src="{{infos.screenShot}}" class="screen">
+      	</div>
+    </tab>
+    <tab heading="Comments">
+      	<div class="panel panel-default">
+	  		<!-- Default panel contents -->
+			<div class="panel-heading">Comments</div>
+			<!-- Table -->
+			<table class="table">
+				<thead>
+		          	<tr>
+			            <th>Author</th>
+			            <th>Description</th>
+			            <th>Status</th>
+		          	</tr>
+	        	</thead>
+	        	<tr ng-repeat="comment in infos.comments" ng-class="{success : comment.closed}">
+					<td>{{comment.author}}</td>
+					<td ng-class="{strikeout : comment.closed }">{{comment.description}}</td>
+					<td>{{comment.closed?'Closed':'Open'}}</td>
+		         </tr>
+
+			</table>
+			</div>
+    </tab>
+</tabset>
