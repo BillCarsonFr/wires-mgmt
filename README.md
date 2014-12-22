@@ -1,7 +1,7 @@
 Node Balsamiq Tool
 ================
 
-If you are using Basalmiq, you know that you must have one file per mockup screen. 
+If you are using Balsamiq, you know that you must have one file per mockup screen. 
 So you probably reach the point where you have tons of files. I needed a simple tool to quickly see my files and know:
 
 - If a screen is considered complete or not
