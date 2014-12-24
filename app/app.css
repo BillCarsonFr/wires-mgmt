@@ -5,6 +5,12 @@ header {
   margin-bottom: 1em;
 }
 
+.progress {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
 .sidebar {
   padding: 20px;
 }

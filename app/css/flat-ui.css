@@ -1,0 +1,25 @@
+
+.progress {
+  height: 24px;
+  background: #ebedef;
+  border-radius: 4px;
+  box-shadow: none;
+  }
+.progress-bar {
+  line-height: 24px;
+  background: #1abc9c;
+  box-shadow: none;
+  min-width: 40px;
+  }
+.progress-bar-success {
+  background-color: #2ecc71;
+  }
+.progress-bar-warning {
+  background-color: #f1c40f;
+  }
+.progress-bar-danger {
+  background-color: #e74c3c;
+  }
+.progress-bar-info {
+  background-color: #3498db;
+  }
