@@ -73,8 +73,8 @@ function parseComment(line) {
 		var parts = line.split(':');
 		if(parts.length == 2) {
 			comment.author = parts[0];
-			if(parts[1].indexOf(',') != -1) {
-				var nf = parts[1].split(',');
+			if(parts[1].indexOf('/') != -1) {
+				var nf = parts[1].split('/');
 				comment.description = nf[0];
 				if(nf[1].trim() == '[x]'){
 					comment.closed = false;

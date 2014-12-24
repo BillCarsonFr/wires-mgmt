@@ -18,6 +18,7 @@
           <href>100_home%26bm%3B100_home.bmml%26bm%3B100_home.bmml%26bm%3B100_home.bmml</href>
           <text>Login</text>
         </override>
+        <override controlID="-1"/>
         <src>./assets/Bootstrap.bmml#bs-btn-lg-primary</src>
       </controlProperties>
     </control>
@@ -35,7 +36,7 @@
     <control controlID="42" controlTypeID="com.balsamiq.mockups::TextInput" x="703" y="279" w="243" h="-1" measuredW="79" measuredH="23" zOrder="6" locked="false" isInGroup="-1"/>
     <control controlID="43" controlTypeID="com.balsamiq.mockups::StickyNote" x="1184" y="52" w="178" h="124" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>%23%23SOWT%23%23%0ASTATUS%3A%20Complete%0A%20%0AJohn%3A%20Sample%20comment%2C%20%5Bx%5D%0ABill%20%3A%20change%20button%20color%2C%20%5Bo%5D%0A%20</text>
+        <text>%23%23SOWT%23%23%0ASTATUS%3A%20Complete%0A%20%0AJohn%3A%20Sample%20comment%20/%20%5Bx%5D%0ABill%20%3A%20change%20button%20color%20/%20%5Bo%5D%0A%20</text>
       </controlProperties>
     </control>
   </controls>

@@ -199,7 +199,7 @@
     </control>
     <control controlID="37" controlTypeID="com.balsamiq.mockups::StickyNote" x="1184" y="52" w="178" h="124" measuredW="109" measuredH="123" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>%23%23SOWT%23%23%0ASTATUS%3A%20In%20Review%0A%20%0AJohn%3A%20Sample%20comment%2C%20%5Bx%5D%0A%20</text>
+        <text>%23%23SOWT%23%23%0ASTATUS%3A%20In%20Review%0A%20%0AJohn%3A%20Sample%20comment/%20%5Bx%5D%0A%20</text>
       </controlProperties>
     </control>
   </controls>
