@@ -40,11 +40,11 @@ This markup format is STATUS: 'Complete|In Review|Incomplete'
 
 If you want to add comments, you just need to edit the SOWT markup using this format:
 
-    <Author>: <Description>, <status>
+    <Author>: <Description>/ <status>
 
     status = [x]|[o]
 
-    E.g: John: Sample comment, [x]
+    E.g: John: Sample comment/ [x]
 
 
 
