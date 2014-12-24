@@ -20,7 +20,11 @@
       		<img ng-src="{{infos.screenShot}}" class="screen">
       	</div>
     </tab>
-    <tab heading="Comments">
+    <tab>
+
+      <tab-heading>
+        Comments <span class="badge" ng-if="infos.comments.length">{{infos.comments.length}}</span>
+      </tab-heading>
       	<div class="panel panel-default">
 	  		<!-- Default panel contents -->
 			<div class="panel-heading">Comments</div>
