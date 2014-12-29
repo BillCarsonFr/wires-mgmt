@@ -9,9 +9,17 @@ exports.wires = function (req, res) {
 	
 	var fileNames = [], screens = [];
 	fileNames = fs.readdirSync(wireBaseDir);
+	var ignore;
+	if(config.ignoreRegex){
+		ignore = new RegExp(config.ignoreRegex);
+	}
 	fileNames.forEach(function (name, i) {
 		var index = name.indexOf('.bmml')
 		if(index != -1){
+			if(ignore && ignore.test(name)){
+				//ignore
+				return;
+			}
 			screens.push(name.substring(0,index));
 		}
   	});

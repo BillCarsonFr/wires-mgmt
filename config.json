@@ -1,4 +1,5 @@
 {
 	"wiresPath" : "./wires",	
-	"mediaPaths" : "wires/export"
+	"mediaPaths" : "wires/export",
+	"ignoreRegex" : "^[^\\d].*"
 }
